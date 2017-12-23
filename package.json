@@ -1,5 +1,6 @@
 {
-  "name": "Jellybeans",
+  "name": "jellybeans",
+  "displayName": "Jellybeans",
   "version": "0.1.0",
   "description": "jellybeans.vim finally on Visual Studio Code!",
   "author": "\"Das\" Franck Hochstaetter",
@@ -17,5 +18,15 @@
       "uiTheme": "vs-dark",
       "path": "./themes/jellybeans.json"
     }]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DasFranck/VSC-Jellybeans/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DasFranck/VSC-Jellybeans"
+  },
+  "keywords": [
+    "themes", "vim", "jellybeans", "jellybeams"
+  ]
 }
