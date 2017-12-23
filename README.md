@@ -7,7 +7,7 @@ This theme is optimized for python but should also looks nice for everything els
 If it looks ugly for another language, feel free to submit a PR. :)
 
 ## Links
-- [Plugin's page on Visual Studio Marketplace (soon)](https://marketplace.visualstudio.com/items?itemName=dasfranck.jellybeans).
+- [Plugin's page on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dasfranck.jellybeans).
 - [GitHub repository](https://github.com/DasFranck/VSC-Jellybeans).
 
 ## Credits

@@ -1,32 +1,36 @@
 {
-  "name": "jellybeans",
-  "displayName": "Jellybeans",
-  "version": "0.1.0",
-  "description": "jellybeans.vim finally on Visual Studio Code!",
-  "author": "\"Das\" Franck Hochstaetter",
-  "publisher": "dasfranck",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "license": "MIT",
-  "contributes": {
-    "themes": [{
-      "label": "Jellybeans",
-      "uiTheme": "vs-dark",
-      "path": "./themes/jellybeans.json"
-    }]
-  },
-  "bugs": {
-    "url": "https://github.com/DasFranck/VSC-Jellybeans/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DasFranck/VSC-Jellybeans"
-  },
-  "keywords": [
-    "themes", "vim", "jellybeans", "jellybeams"
-  ]
+    "name": "jellybeans",
+    "displayName": "Jellybeans",
+    "version": "0.2.0",
+    "description": "jellybeans.vim finally on Visual Studio Code!",
+    "author": "\"Das\" Franck Hochstaetter",
+    "publisher": "dasfranck",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "license": "MIT",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jellybeans",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jellybeans.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/DasFranck/VSC-Jellybeans/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DasFranck/VSC-Jellybeans"
+    },
+    "keywords": [
+        "vim",
+        "jellybeans",
+        "jellybeams"
+    ]
 }
