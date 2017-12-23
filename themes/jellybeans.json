@@ -1,0 +1,188 @@
+{
+  "name": "Jellybeans",
+  "website": "https://github.com/DasFranck/VSC-Jellybeans",
+  "comment": "jellybeans.vim finally on Visual Studio Code!",
+  "type": "dark",
+  "settings": [
+    {
+      "settings": {
+        "background": "#151515",
+        "caret": "#b0d0f0",
+        "foreground": "#CDCDCD",
+        "invisibles": "#4B4E53",
+        "selection": "#404040",
+        "lineHighlight": "#010101",
+        "gutterForeground": "#373737"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#888888"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#99ad6a"
+      }
+    },
+    {
+      "name": "String begin/end",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#556633"
+      }
+    },
+    {
+      "name": "Symbol",
+      "scope": "constant.other",
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
+      "name": "Constant char",
+      "scope": "constant.character",
+      "settings": {
+        "foreground": "#4d7e69"
+      }
+    },
+    {
+      "name": "Regexp",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#dd0093"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "support.class",
+        "support.function.builtin"
+      ],
+      "settings": {
+        "foreground": "#ffb964"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#cc9d3b"   
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity",
+      "settings": {
+        "foreground": "#ffb964"
+      }
+    },
+    {
+      "name": "Entity Function",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword.control", "keyword.operator.logical"],
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
+      "name": "Diff insertion",
+      "scope": [
+        "diff.inserted",
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#558f1f"
+      }
+    },
+    {
+      "name": "Diff deletion",
+      "scope": [
+        "diff.deleted",
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "#a1000d"
+      }
+    },
+    {
+      "name": "Diff header",
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#4e738a"
+      }
+    },
+    {
+      "name": "Diff range",
+      "scope": "meta.diff.range",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#888888"
+      }
+    },
+    {
+      "name": "Diff changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#967efb"
+      }
+    },
+    {
+      "name": "keyword.other",
+      "scope": "keyword.other",
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
+      "name": "Library Class/Type",
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#fbe3bf"
+      }
+    },
+    {
+      "name": "String Interpolation",
+      "scope": [
+        "constant.character.escaped",
+        "constant.character.escape",
+        "string source",
+        "string source.ruby"
+      ],
+      "settings": {
+        "foreground": "#b4c973"
+      }
+    }
+  ]
+}

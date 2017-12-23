@@ -1,0 +1,21 @@
+{
+  "name": "Jellybeans",
+  "version": "0.1.0",
+  "description": "jellybeans.vim finally on Visual Studio Code!",
+  "author": "\"Das\" Franck Hochstaetter",
+  "publisher": "dasfranck",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "contributes": {
+    "themes": [{
+      "label": "Jellybeans",
+      "uiTheme": "vs-dark",
+      "path": "./themes/jellybeans.json"
+    }]
+  }
+}
