@@ -17,7 +17,7 @@
             {
                 "label": "Jellybeans",
                 "uiTheme": "vs-dark",
-                "path": "./themes/jellybeans.json"
+                "path": "./themes/jellybeans-color-theme.json"
             }
         ]
     },
