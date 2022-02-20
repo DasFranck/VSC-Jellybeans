@@ -10,6 +10,9 @@
   "semanticTokenColors": {
     "keyword": {
       "foreground": "#8197BF"
+    },
+    "variable.typeHint": {
+      "foreground": "#fbe3bf"
     }
   },
   "tokenColors": [
@@ -84,8 +87,7 @@
       "name": "Number and Booleans",
       "scope": [
         "constant.numeric",
-        "constant.language.boolean",
-        "constant.language.python"
+        "constant.language"
       ],
       "settings": {
         "foreground": "#cf6a4c"
@@ -103,10 +105,12 @@
       }
     },
     {
-      "name": "Keyword",
+      "name": "Keyword and period separator",
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
+        "keyword.operator.new",
+        "punctuation.separator.period.python",
         "entity.name.tag.html"
       ],
       "settings": {
@@ -164,16 +168,6 @@
       }
     },
     {
-      "name": "Library Class/Type",
-      "scope": [
-        "support.type",
-        "support.class"
-      ],
-      "settings": {
-        "foreground": "#fbe3bf"
-      }
-    },
-    {
       "name": "String Interpolation",
       "scope": [
         "constant.character.escaped",
@@ -206,11 +200,33 @@
       }
     },
     {
-      "name": "Tag HTML and structure",
+      "name": "Dictionnary and Lists",
+      "scope": [
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.list.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#8fbfdc"
+      }
+    },
+    {
+      "name": "Json Comment",
+      "scope": [
+        "string.json.comments"
+      ],
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
+      "name": "Tag HTML",
       "scope": [
         "entity.name.tag.html",
-        "punctuation.definition.tag",
-        "punctuation.separator"
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#8197BF"
