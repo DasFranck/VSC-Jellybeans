@@ -1,7 +1,7 @@
 {
     "name": "jellybeans",
     "displayName": "Jellybeans",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "jellybeans.vim finally on Visual Studio Code!",
     "author": "\"Das\" Franck Hochstaetter",
     "publisher": "dasfranck",
@@ -32,5 +32,8 @@
         "vim",
         "jellybeans",
         "jellybeams"
-    ]
+    ],
+    "dependencies": {
+        "vsce": "^2.6.7"
+    }
 }
