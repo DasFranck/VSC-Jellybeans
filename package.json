@@ -1,7 +1,7 @@
 {
     "name": "jellybeans",
     "displayName": "Jellybeans",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "jellybeans.vim finally on Visual Studio Code!",
     "author": "\"Das\" Franck Hochstaetter",
     "publisher": "dasfranck",
