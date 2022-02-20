@@ -223,7 +223,19 @@
         "punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#65737E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown - Section Names",
+      "scope": [
+        "entity.name.section",
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#99ad6a",
+        "fontStyle": "bold"
       }
     },
     {
@@ -256,8 +268,7 @@
         "markup.quote markup.bold string"
       ],
       "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#f07178"
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -266,8 +277,7 @@
         "markup.underline"
       ],
       "settings": {
-        "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "fontStyle": "underline"
       }
     },
     {
@@ -300,7 +310,8 @@
     {
       "name": "Markdown - Link Description",
       "scope": [
-        "string.other.link.description.title.markdown"
+        "string.other.link.description.title.markdown",
+        "markup.underline.link.markdown"
       ],
       "settings": {
         "foreground": "#C792EA"
