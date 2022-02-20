@@ -81,8 +81,12 @@
       }
     },
     {
-      "name": "Number",
-      "scope": ["constant.numeric"],
+      "name": "Number and Booleans",
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.python"
+      ],
       "settings": {
         "foreground": "#cf6a4c"
       }
