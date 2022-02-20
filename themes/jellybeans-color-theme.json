@@ -190,10 +190,11 @@
       }
     },
     {
-      "name": "Import and Decorator",
+      "name": "Import, Decorator and Magic",
       "scope": [
         "keyword.control.import",
-        "punctuation.definition.decorator"
+        "punctuation.definition.decorator",
+        "support.variable.magic"
       ],
       "settings": {
         "foreground": "#8fbfdc"
