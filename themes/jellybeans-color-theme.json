@@ -254,6 +254,15 @@
       }
     },
     {
+      "name": "Tag Localname",
+      "scope": [
+        "entity.name.tag.localname"
+      ],
+      "settings": {
+        "foreground": "#8197BF"
+      }
+    },
+    {
       "name": "Markdown - Heading",
       "scope": [
         "punctuation.definition.heading.markdown"
