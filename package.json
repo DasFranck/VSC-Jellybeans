@@ -19,7 +19,14 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/jellybeans-color-theme.json"
             }
-        ]
+        ],
+        "semanticTokenScopes": [
+            {
+              "scopes": {
+                "exception": ["support.type.exception"]
+              }
+            }
+          ]
     },
     "bugs": {
         "url": "https://github.com/DasFranck/VSC-Jellybeans/issues"
