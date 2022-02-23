@@ -8,12 +8,14 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "keyword": {
-      "foreground": "#8197BF"
-    },
-    "variable.typeHint": {
-      "foreground": "#fbe3bf"
-    }
+    "keyword": "#8197BF",
+    "variable.typeHint": "#fbe3bf",
+    "class": "#cc9d3b",
+    "class.builtin": "#cc9d3b",
+    "class.typeHint": "#e7cfa1",
+    "variable.readonly": "#a384a8",
+    "enum": "#a384a8",
+    "exception": "#8fbfdc"
   },
   "tokenColors": [
     {
@@ -67,6 +69,7 @@
     {
       "name": "Function Parameter and Attributes name",
       "scope": [
+        "variable.parameter.function",
         "variable.parameter.function-call",
         "entity.other.attribute-name"
       ],
@@ -148,8 +151,7 @@
       "name": "Diff header",
       "scope": ["meta.diff.header"],
       "settings": {
-        "foreground": "#FFFFFF",
-        "background": "#4e738a"
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -240,6 +242,15 @@
       ],
       "settings": {
         "foreground": "#F44747"
+      }
+    },
+    {
+      "name": "Tag Namespace",
+      "scope": [
+        "entity.name.tag.namespace"
+      ],
+      "settings": {
+        "foreground": "#99AD6A"
       }
     },
     {
